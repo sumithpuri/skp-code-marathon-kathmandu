@@ -1,5 +1,6 @@
 package me.sumithpuri.github.kathmandu.main;
 
+import me.sumithpuri.github.kathmandu.annotations.processor.jdk5_AnnotationProcessor;
 import me.sumithpuri.github.kathmandu.autoboxing.jdk5_Autoboxing;
 import me.sumithpuri.github.kathmandu.enhancedfor.jdk5_EnhancedFor;
 import me.sumithpuri.github.kathmandu.enums.jdk5_Enum;
@@ -41,7 +42,7 @@ import me.sumithpuri.github.kathmandu.varargs.jdk5_Varargs;
  */
 public class jdk5_Kathmandu {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		System.out.println("Copyright (c) 2018-19,	Sumith Kumar Puri");
 		System.out.println();
@@ -68,6 +69,9 @@ public class jdk5_Kathmandu {
 		System.out.println("[06. Autoboxing]");
 		autoboxing();
 		System.out.println("~Nothing to Demonstrate. Refer Code for Example~");
+		System.out.println("------------------------------------------------------------");
+		System.out.println("[07. Annotations]");
+		annotations();
 		System.out.println("------------------------------------------------------------");
 	}
 	
@@ -106,5 +110,11 @@ public class jdk5_Kathmandu {
 		
 		jdk5_Autoboxing autoboxing = new jdk5_Autoboxing();
 		autoboxing.demonstrate();
+	}
+	
+	private static void annotations() throws Exception {
+		
+		jdk5_AnnotationProcessor annotations = new jdk5_AnnotationProcessor();
+		annotations.demonstrate();
 	}
 }
