@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>me.sumithpuri.github</groupId>
-	<artifactId>skp-code-marathon-kathmandu</artifactId>
+	<artifactId>skp-code-marathon-thimphu</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>skp-code-marathon-kathmandu</name>
+	<name>skp-code-marathon-thimphu</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -45,7 +45,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>me.sumithpuri.github.kathmandu.main.jdk5_Kathmandu</mainClass>
+							<mainClass>me.sumithpuri.github.thimphu.main.jdk6_Thimphu</mainClass>
 						</configuration>
 					</execution>
 				</executions>
@@ -57,7 +57,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>me.sumithpuri.github.kathmandu.main.jdk5_Kathmandu</mainClass>
+							<mainClass>me.sumithpuri.github.thimphu.main.jdk6_Thimphu</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
