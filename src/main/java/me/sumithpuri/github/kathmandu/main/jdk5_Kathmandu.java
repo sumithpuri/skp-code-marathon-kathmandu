@@ -37,7 +37,7 @@ import me.sumithpuri.github.kathmandu.varargs.jdk5_Varargs;
  */
 
 /* 
- * You may run this main class to run all the Demo Code  of  the  Kathmandu  Project. It demonstrates the most important 
+ * You may run  this  main class to run all the Demo Code of the [Kathmandu] Project. It demonstrates the most important 
  * changes in Java 5.
  */
 public class jdk5_Kathmandu {
@@ -49,6 +49,7 @@ public class jdk5_Kathmandu {
 		System.out.println("Project Codename      Kathmandu");
 		System.out.println("Project Description   Java 5 Companion Code Samples");
 		System.out.println("Technical Blog        http://www.techilashots.com");
+		System.out.println("Technical Blog Post   https://goo.gl/xWQkpw");
 		System.out.println();
 		System.out.println("------------------------------------------------------------");
 		System.out.println("[01. Enhanced For]");
