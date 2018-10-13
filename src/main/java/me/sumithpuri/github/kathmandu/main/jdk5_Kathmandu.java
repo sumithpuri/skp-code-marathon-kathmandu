@@ -50,6 +50,7 @@ public class jdk5_Kathmandu {
 		System.out.println("Project Description   Java 5 Companion Code Samples");
 		System.out.println("Technical Blog        http://www.techilashots.com");
 		System.out.println("Technical Blog Post   https://goo.gl/xWQkpw");
+		System.out.println("[Developer Notes]     [01] Use Java Version 8.0 Compiler (or Lower)");
 		System.out.println();
 		System.out.println("------------------------------------------------------------");
 		System.out.println("[01. Enhanced For]");
