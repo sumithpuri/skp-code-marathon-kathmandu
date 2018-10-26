@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>skp-code-marathon-kathmandu</name>
+	<name>Kathmandu : Java SE 5 Code Samples</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -65,4 +65,5 @@
 			</plugin>
 		</plugins>  
 </build>
+	<description>Code Samples for the Blog Article [Java SE 5... What's New?]</description>
 </project>
